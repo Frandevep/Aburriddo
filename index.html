@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pagina</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Hola</h1>
+        <p>Prueba de pagina HTML y CSS para verificar si se puede correr con un servidor de ngrok</p>
+
+    </div>
+    <h1>Haz click en la imagen que mas te guste!</h1>
+    <span>(BAJAR EL VOLUMEN DE WINDOWS)</span>
+    <div class="imagenes">
+        <img src="imagenes/pichu.png" alt="IIIRRMAA" data-sound="hibrido.mp3">
+        <img src="imagenes/drake.gif" alt="drizzy" data-sound="flig.mp3">
+        <img src="imagenes/dontoo.jpg" alt="DonTo" data-sound="nopole.mp3">
+
+    </div>
+    <audio id="audio-player"></audio>
+    <script src="sonidos.js"></script>
+
+</body>
+</html>
